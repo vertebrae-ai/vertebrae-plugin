@@ -4,8 +4,6 @@ Bring your [Vertebrae](https://vertebrae.ai) meeting notes into the agent you al
 
 The plugin adds Vertebrae's hosted MCP server plus three skills. It installs no binary, reads no local files, and needs no API key. It is read-only.
 
-> Status: pre-release. Marketplace submissions are in progress; install from this repository in the meantime (see below).
-
 ## What you can do
 
 | Tool | What it does |
