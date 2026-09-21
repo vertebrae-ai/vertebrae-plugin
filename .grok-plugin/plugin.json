@@ -1,0 +1,14 @@
+{
+  "name": "vertebrae",
+  "version": "1.0.0",
+  "description": "Your Vertebrae meeting notes in your agent. Search meetings and calls, read full transcripts and AI summaries, and bring a meeting's decisions into the task in front of you. Read-only: you approve each agent from the Vertebrae app.",
+  "author": {
+    "name": "Vertebrae",
+    "url": "https://vertebrae.ai"
+  },
+  "homepage": "https://vertebrae.ai",
+  "repository": "https://github.com/vertebrae-ai/vertebrae-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["vertebrae", "vertebrae meetings", "vertebrae transcripts", "meeting notes", "mcp"],
+  "logo": "assets/logo.svg"
+}

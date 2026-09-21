@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "vertebrae": {
+      "type": "http",
+      "url": "https://mcp.vertebrae.ai/mcp",
+      "note": "Vertebrae's hosted MCP server. Browser OAuth on first use: the page shows a pairing code you enter in the Vertebrae Mac or iPhone app. No API key, no environment variable, no local binary."
+    }
+  }
+}
