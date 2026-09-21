@@ -100,7 +100,7 @@ Vertebrae has no web login. When your agent first connects, a browser page shows
 
 ## Authentication, data, and permissions
 
-- The plugin connects only to `https://mcp.vertebrae.ai/mcp` and to the OAuth endpoints on that same host. There is no other network endpoint.
+- The plugin connects to two Vertebrae hosts and nothing else: `https://mcp.vertebrae.ai/mcp` (the MCP server and its protected-resource metadata) and `https://api.vertebrae.ai` (the OAuth authorization server: `/oauth/authorize`, `/oauth/token`, `/oauth/register`). Your agent finds the second from the first through standard discovery (RFC 9728 and RFC 8414); nothing is hardcoded here.
 - Authentication is OAuth 2.1 with PKCE, handled by your agent; the plugin ships no credentials, reads no environment variables, `.env` files, or local secrets, and runs no local process.
 - The only scope is `transcripts:read`. Every tool is read-only.
 - While AI Connections is on, the transcripts and summaries on your account are stored on Vertebrae's servers in plaintext so they can be handed to an agent you approved. Audio is never included. Turning AI Connections off deletes that copy and disconnects every agent. This is described in full in the [Vertebrae privacy policy](https://vertebrae.ai/privacy).
